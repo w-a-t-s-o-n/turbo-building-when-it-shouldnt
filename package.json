@@ -6,7 +6,9 @@
     "build": "turbo run build",
     "test": "turbo run test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "turbo": "^1.12.5"
+  },
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=8"
