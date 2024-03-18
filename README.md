@@ -3,7 +3,7 @@
 ### Steps
 
 1. Run `pnpm i` (or `corepack enable` first)
-2. Run `pnpm test
+2. Run `pnpm test`
 
 #### Expected
 `tokens` and `icons` run `build`, then `design-system` runs `test`
