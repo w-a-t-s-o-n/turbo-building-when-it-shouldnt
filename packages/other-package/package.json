@@ -2,7 +2,7 @@
   "name": "other-package",
   "version": "0.0.1",
   "scripts": {
-    "build": "echo 'building tokens'"
+    "build": "echo 'building other package'"
   },
   "dependencies": {
     "design-system": "workspace:*"
