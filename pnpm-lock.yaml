@@ -1,0 +1,28 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/icon: {}
+
+  packages/other-package:
+    dependencies:
+      design-system:
+        specifier: workspace:*
+        version: link:../ui-react
+
+  packages/token: {}
+
+  packages/ui-react:
+    dependencies:
+      icons:
+        specifier: workspace:*
+        version: link:../icon
+      tokens:
+        specifier: workspace:*
+        version: link:../token
